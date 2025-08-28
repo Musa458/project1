@@ -1,0 +1,473 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg {
+    background-image: url(2.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+}
+.overlay1{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.555);
+}
+.navbar {
+    width: 100%;
+    height: 80px;
+}
+.logo {
+    width: 55%;
+    height: 80px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: skyblue;
+    float: left;
+    line-height: 80px;
+    padding-left: 80px;
+}
+.manubar {
+    width: 45%;
+    height: 80px;
+    float: right;
+}
+.manubar ul li {
+    list-style-type: none;
+    float: left;
+}
+a.manu-btn {
+    text-decoration: none;
+    margin-left: 20px;
+    line-height: 100px;
+    color: white;
+}
+.banner-caption {
+    width: 40%;
+    height: 130px;
+    margin: 300px 30% 30px 30%;
+    text-align: center;
+}
+.banner-desc {
+    width: 100%;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.banner-button {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+}
+.c0{
+    clear: both;
+}
+.about {
+    width: 40%;
+    height: 180px;
+    margin: 0px 30% 0px 30%;
+    padding-top: 70px;
+    text-align: center;
+}
+.aboutus {
+    width: 90%;
+    height: 350px;
+    margin: 0px 5% 0px 5%;
+}
+.aboutus-img {
+    width: 48%;
+    height: 300px;
+    float: left;
+}
+.aboutus-text {
+    width: 48%;
+    height: 300px;
+    float: right;
+}
+.hr {
+    width: 100px;
+    height: 3px;
+    background-color: rgb(16, 182, 248);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.aboutus-button {
+    width: 170px;
+    height: 50px;
+    margin-top: 50px;
+    background-color: rgb(8, 175, 241);
+}
+.PORTFOLIO {
+    width: 40%;
+    height: 180px;
+    margin: 0px 30% 0px 30%;
+    padding-top: 70px;
+    text-align: center;
+}
+.co {
+    width: 100%;
+    height: 1000px;
+    clear: both;
+}
+.gallery {
+    width: 100%;
+}
+.gallery1 {
+    width: 90%;
+    height: 250px;
+    margin: 0px 5% 0px 5%;
+    clear: both;
+}
+.gallery1-img1 {
+    width: 32%;
+    height: 200px;
+    float: left;
+}
+.gallery1-img2 {
+    width: 32%;
+    height: 200px;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.gallery1-img3 {
+    width: 32%;
+    height: 200px;
+    float: left;
+}
+.gallery2 {
+    width: 90%;
+    height: 250px;
+    margin: 0px 5% 0px 5%;
+    clear: both;
+}
+.gallery2-img1 {
+    width: 32%;
+    height: 200px;
+    float: left;
+}
+.gallery2-img2 {
+    width: 32%;
+    height: 200px;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.gallery2-img3 {
+    width: 32%;
+    height: 200px;
+    float: left;
+}
+.gallery3 {
+    width: 90%;
+    height: 250px;
+    margin: 0px 5% 0px 5%;
+    clear: both;
+}
+.gallery3-img1 {
+    width: 32%;
+    height: 200px;
+    float: left;
+}
+.gallery3-img2 {
+    width: 32%;
+    height: 200px;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.gallery3-img3 {
+    width: 32%;
+    height: 200px;
+    float: left;
+}
+.PORTFOLIO {
+    width: 40%;
+    height: 180px;
+    margin: 0px 30% 0px 30%;
+    padding-top: 70px;
+    text-align: center;
+}
+.c1{
+    clear: both;
+}
+.services {
+    width: 40%;
+    height: 180px;
+    margin: 0px 30% 0px 30%;
+    padding-top: 70px;
+    text-align: center;
+}
+.c2{
+    clear: both;
+}
+.cards {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 0;
+}
+
+.card1 , .card2, .card3, .card4{
+    width: 23%;
+    height: 280px;
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Different background color for the second card */
+.card2:nth-child(2) {
+    background-color: rgb(4, 181, 251);
+}
+/* .cards {
+    width: 90%;
+    height: 330px;
+    margin: 0px 5% 0px 5%;
+    background-color: white;
+} */
+/* .card1 , .card2, .card3, .card4 {
+    width: 22.3%;
+    height: 280px;
+    background-color: whitesmoke;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+} */
+   
+.card1-icon {
+    font-size: 40px;
+    color: rgb(16, 175, 238);
+    margin-bottom: 10px;
+}
+.card1-heading {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hr1 {
+    width: 70px;
+    height: 2px;
+    background-color: gray;
+    margin: 5px 0px 15px 98px;
+}
+.card1-button {
+    width: 110px;
+    height: 30px;
+    color: white;
+    background-color: rgb(16, 1, 1);
+    margin-top: 25px;
+}
+/* .card2 {
+    width: 22.3%;
+    height: 280px;
+    background-color: rgb(4, 181, 251);
+    float: left;
+    margin-left: 38px;
+    text-align: center;
+    padding-top: 20px;
+} */
+.card2-heading {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+.card2-icon {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 10px;
+}
+.card2-button {
+    width: 110px;
+    height: 30px;
+    color: black;
+    background-color: whitesmoke;
+    margin-top: 25px;
+}
+/* .card3 {
+    width: 22.3%;
+    height: 280px;
+    background-color: whitesmoke;
+    float: left;
+    margin-left: 38px;
+    text-align: center;
+    padding-top: 20px;
+} */
+.card3-heading {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card3-icon {
+    font-size: 40px;
+    color: rgb(16, 175, 238);
+    margin-bottom: 10px;
+}
+.card3-button {
+    width: 110px;
+    height: 30px;
+    color: white;
+    background-color: rgb(16, 1, 1);
+    margin-top: 25px;
+}
+/* .card4 {
+    width: 22.3%;
+    height: 280px;
+    background-color: whitesmoke;
+    float: left;
+    margin-left: 38px;
+    text-align: center;
+    padding-top: 20px;
+} */
+.card4-heading {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card4-icon {
+    font-size: 40px;
+    color: rgb(16, 175, 238);
+    margin-bottom: 10px;
+}
+.card4-button {
+    width: 110px;
+    height: 30px;
+    color: white;
+    background-color: rgb(16, 1, 1);
+    margin-top: 25px;
+}
+.c3{
+    clear: both;
+}
+.CONTACT {
+    width: 40%;
+    height: 180px;
+    margin: 0px 30% 0px 30%;
+    padding-top: 70px;
+    text-align: center;
+}
+.contactus {
+    width: 90%;
+    height: 500px;
+    margin: 0px 5% 0px 5%;
+}
+.contactus1 {
+    width: 48%;
+    height: 400px;
+    float: left;
+}
+.contactus-form {
+    width: 48%;
+    height: 400px;
+    margin-top: 55px;
+    float: right;
+}
+.hr2 {
+    width: 120px;
+    height: 2px;
+    background-color: rgb(5, 179, 248);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.contactus1-desc2 {
+    width: 150px;
+    height: 60px;
+}
+.contactus-form-button {
+    width: 160px;
+    height: 50px;
+    background-color: rgb(4, 184, 255);
+    /* margin-left: 360px; */
+    margin-top: 40px;
+    border-radius: 30px;
+}
+.copy {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0, 183, 255);
+    text-align: center;
+    padding-top: 25px;
+}
+.field1{
+    width: 48%;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 3px;
+    float: left;
+}
+.field2{
+    width: 48%;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 3px;
+    float: right;   
+}
+.field3{
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 3px;
+    margin-top: 10px;
+    float: right;
+}
+@media screen and (max-width:1172px){
+    .card1, .card2{
+        min-width: 48%;
+        float: left;
+    }
+    .card3{
+        width: 48%;
+        float: left;
+        margin-top: 30px;
+        margin-left: -1px;
+    }
+    .card4{
+        width: 48%;
+        float: left;
+        margin-top: 30px;
+    }
+    
+}
+@media screen and (max-width:1080px){
+    .navbar{
+        width: 80%;
+    }
+    .logo{
+        width: 20%;
+    }
+    .manubar{
+        width: 60%;
+    }
+    
+}
+@media screen and (max-width:1054px){
+    .card1, .card2{
+        min-width: 48%;
+        float: left;
+    }
+    .card3{
+        width: 48%;
+        float: left;
+        margin-top: 30px;
+        margin-left: -1px;
+    }
+    .card4{
+        width: 48%;
+        float: left;
+        margin-top: 30px;
+    }
+}
+/* Responsive for Tablets */
+@media (max-width: 1024px) {
+    .card {
+        width: 48%; /* 2 cards per row */
+        margin-bottom: 20px;
+    }
+}
+
+/* Responsive for Mobile */
+@media (max-width: 768px) {
+    .card {
+        width: 100%; /* 1 card per row */
+        margin-bottom: 20px;
+    }
+}
